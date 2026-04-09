@@ -31,6 +31,10 @@ cd hafid-backend-login-app
 composer install
 cp .env.example .env
 php artisan key:generate
+
+**Buat database baru di MySQL**
+**Sesuaikan konfigurasi database di .env**
+
 php artisan migrate --seed
 php artisan serve
 ```
