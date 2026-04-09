@@ -11,7 +11,7 @@ Autentikasi menggunakan JWT yang disimpan dalam HttpOnly Cookie.
 * MySQL
 * JWT Authentication
 * Bcrypt (hash password)
-* Rate Limit (limit 5x percobaan login per 1 menit)
+* Rate Limit
 
 ---
 
@@ -80,7 +80,7 @@ Alur:
 * Password di-hash menggunakan bcrypt
 * JWT disimpan dalam HttpOnly Cookie
 * Endpoint dilindungi middleware auth
-* Rate limit login untuk mencegah brute force
+* Rate limit login untuk mencegah brute force (limit 5x percobaan login per 1 menit)
 
 ---
 
