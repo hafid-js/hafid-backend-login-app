@@ -15,6 +15,14 @@ Autentikasi menggunakan JWT yang disimpan dalam HttpOnly Cookie.
 
 ---
 
+## Requirement
+
+Sebelum menjalankan project, pastikan sudah terinstall:
+
+- PHP versi 8 atau lebih baru
+- Composer
+- MySQL
+
 ## Cara Menjalankan
 
 ```bash
@@ -96,8 +104,8 @@ php artisan test
 
 Gunakan akun berikut untuk login:
 
-Email: test@example.com
-Password: Password123
+* Email: test@example.com
+* Password: Password123
 
 ---
 
@@ -105,3 +113,4 @@ Password: Password123
 
 * Pastikan database MySQL sudah berjalan
 * sistem autentikasi menggunakan Laravel + JWT
+* Aplikasi menggunakan HttpOnly Cookie, sehingga testing harus menggunakan frontend atau Postman dengan cookie aktif.
