@@ -80,7 +80,7 @@ Alur:
 * Password di-hash menggunakan bcrypt
 * JWT disimpan dalam HttpOnly Cookie
 * Endpoint dilindungi middleware auth
-* Rate limit login untuk mencegah brute force (limit 5x percobaan login per 1 menit)
+* Rate limit login untuk mencegah brute force (limit 5x percobaan login per 1 menit tiap IP)
 
 ---
 
